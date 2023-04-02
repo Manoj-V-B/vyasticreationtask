@@ -1,0 +1,12 @@
+.btna{
+    background-color: rgb(123, 203, 74);
+    border: none;
+    border-radius: 5px;
+}
+.btnb{
+    border-radius: 5px;
+}
+.bgdarka{
+    background: #000;
+    border-radius: 15px;color: white;
+}

@@ -1,0 +1,26 @@
+.main{
+    border-radius: 2rem;
+    background-color: black;
+}
+.btn1{
+    border-radius: 12px;
+    background-color: transparent;
+    border-color: white;
+}
+.btn0{
+    background-color: rgb(48, 236, 92);
+    color: #000;
+    font-weight: bolder;
+    border-radius: 12px;
+}
+.oneimg{
+    height: 50vh;
+    
+}
+.twoimg{
+    height: 50vh;
+    margin-top: -20vh;
+}
+.textgrey{
+    color: gray;
+}

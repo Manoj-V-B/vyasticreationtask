@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './App.css';
+import { Home } from './component/Home';
+import { MobSms } from './component/mobilesms';
+import { Fourthpage} from './component/Fourthpage';
+import Thiredpage from './component/thirdpage';
+import { Overall } from './overall';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div>
+    <BrowserRouter>
+    <Routes>
+      {/* <Route path='/' element={[<Home/>,<Secondpage/>]}/> */}
+      {/* <Route path='/' element={<Fourthpage/>}/> */}
+      <Route path='/' element={<Overall/>}/>
+    </Routes>
+    </BrowserRouter>
+   </div>
+   </>
   );
 }
 

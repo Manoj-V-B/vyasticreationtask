@@ -1,0 +1,21 @@
+.btn{
+    border-radius: 30rem;
+}
+.box{
+    background-color: darkgray;
+    border-radius: 5%;
+    padding: 2%;
+}
+.box1{
+    background-color: darkgray;
+    border-radius: 25px;
+    /* padding: 2%; */
+
+    text-align: center;
+}
+.btnsucce{
+    background-color: greenyellow;
+}
+.viewsize{
+    font-weight: bolder;
+}
